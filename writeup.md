@@ -37,14 +37,15 @@ it's a movie where the results of the last frame are known, the result
 will be averaged with the last frame to obtain more stable lines.
 
 The results can be seen in [test_images_output](test_images_output) as
-well as [test_vides_output](test_vides_output).
+well as [test_videos_output](test_videos_output).
 
 ### Potential shortcomings
 
-The presented solution is not really robust. It works well on straight
-lines but has problems in curves as seen on the challenges example.
-Also, it is not really smooth but wiggles around quite a bit. Finally,
-the performance in low-light situations is not tested.
+The presented solution is not really robust. It works well on all images
+and the two videos (i.e. on straight lines) but has problems in curves
+as seen on the challenges example.  Also, it is not really smooth but
+wiggles around quite a bit. Finally, the performance in low-light
+situations is not tested.
 
 ### Possible improvements
 
